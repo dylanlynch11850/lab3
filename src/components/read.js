@@ -1,8 +1,10 @@
 import React from "react";
 import { Books } from "./books";
 
+//Adding the eport class
 export class Read extends React.Component{
     
+    //Got this from online using the link
 state ={
     books:[
     {
@@ -47,6 +49,7 @@ state ={
     ]
 };
    
+    //Render Items
 render(){
     return(
         <div>
