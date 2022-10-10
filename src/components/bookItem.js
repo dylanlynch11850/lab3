@@ -10,7 +10,8 @@ export class BookItem extends React.Component{
                 <img src={this.props.book.thumbnailUrl}></img>
         <p>{this.props.book.authors[0]}</p> */}
         <center>
-
+//This is the card function 
+            //Import from online
     <Card>
       <Card.Header>{this.props.book.title}</Card.Header>
       <Card.Body>
