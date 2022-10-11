@@ -2,6 +2,9 @@ import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//went to bootstrap and got a nav bar
+//nav bar changes url of the app
+
 import { Content } from './components/content';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
@@ -34,7 +37,7 @@ class App extends React.Component {
             <Container>
               <Navbar.Brand href="/">Navbar</Navbar.Brand>
 
-
+//changes to /read or /create changing url
 
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
@@ -43,10 +46,16 @@ class App extends React.Component {
               </Nav>
             </Container>
           </Navbar>
+      
+      //client side routing
+      
           <Routes>
             <Route path='/' element={<Content></Content>} exact></Route>
             <Route path='/read' element={<Read />}></Route>
             <Route path='/create' element={<Create />}></Route>
+
+//import styleing sheets 
+
 
           </Routes>
           {/* <Header></Header>
