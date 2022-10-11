@@ -5,6 +5,9 @@ import { Books } from "./books";
 export class Read extends React.Component{
     
     //Got this from online using the link
+    //holds data in json data, 
+    //Here we have an array of object 
+    
 state ={
     books:[
     {
@@ -48,7 +51,7 @@ state ={
     
     ]
 };
-   
+   //books needs to be passed down using javascript here 
     //Render Items
 render(){
     return(
