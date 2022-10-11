@@ -1,9 +1,11 @@
 import React from 'react';
+//virtual dom, quicker 
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//makes chnages without altering the dom
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
