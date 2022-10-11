@@ -2,6 +2,8 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
+
+//Here we are telling the code to display book title and thumbnail
 export class BookItem extends React.Component{
     render(){
         return(
@@ -10,8 +12,10 @@ export class BookItem extends React.Component{
                 <img src={this.props.book.thumbnailUrl}></img>
         <p>{this.props.book.authors[0]}</p> */}
         <center>
+            
 //This is the card function 
             //Import from online
+            //access this from the parent 
     <Card>
       <Card.Header>{this.props.book.title}</Card.Header>
       <Card.Body>
